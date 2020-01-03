@@ -374,7 +374,7 @@ img {
 
 /************** 04 ANIMATION **************/
 #animation {
-    /* display: none; */
+    display: none;
 }
 
 #animation .sectionwrapper .col {
@@ -450,3 +450,84 @@ img {
     color: #51B282;
 }
 /************** 04 ANIMATION SLUT **************/
+
+
+
+/************** 05 CONTENT **************/
+#content {
+    /* display: none; */
+}
+
+#content .sectionwrapper .col {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#content header {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#content header .dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #E38F53;
+    margin-right: 10px;
+}
+
+#content header .rect {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #E38F53;
+    margin-left: 40px;
+}
+
+#content h1 {
+    color: #E38F53;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#content h1 strong {
+    font-size: 2.6rem;
+}
+
+#content .sectionwrapper .nav_menu h3 {
+    color: #E38F53;
+}
+
+#content .sectionwrapper .nav_menu .nav_links .menu_dot {
+    background-color: #E38F53;
+}
+
+#content .sectionwrapper .col {
+    padding-bottom: 10px;
+}
+
+#content .sectionwrapper .col:nth-child(3) {
+    padding-bottom: 135px;
+}
+
+#content .sectionwrapper .col h2 {
+    padding-top: 15px;
+    color: #E38F53;
+    margin: 10px 0 0 0;
+}
+
+#content .sectionwrapper p {
+    margin: 6px 0;
+}
+
+#content .sectionwrapper .col .text a {
+    text-decoration: none;
+    color: #E38F53;
+}
+/************** 05 CONTENT SLUT **************/
