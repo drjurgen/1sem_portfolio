@@ -54,6 +54,9 @@ img {
     padding: 0 10px;
 }
 
+.hide {
+    display: none;
+}
 /************** GENERELLE INDSTILLINGER SLUT **************/
 
 
@@ -107,10 +110,6 @@ img {
 
 
 /************** 00 CV **************/
-#cv {
-    display: none;
-}
-
 #cv header {
     padding: 0 15px;
     display: flex;
@@ -213,10 +212,6 @@ img {
 
 
 /************** 02 WEB **************/
-#web {
-    display: none;
-}
-
 #web .sectionwrapper .col {
     flex-grow: 1;
 
@@ -293,10 +288,6 @@ img {
 
 
 /************** 03 UX **************/
-#ux {
-    display: none;
-}
-
 #ux .sectionwrapper .col {
     flex-grow: 1;
 
@@ -373,10 +364,6 @@ img {
 
 
 /************** 04 ANIMATION **************/
-#animation {
-    display: none;
-}
-
 #animation .sectionwrapper .col {
     flex-grow: 1;
 
@@ -454,10 +441,6 @@ img {
 
 
 /************** 05 CONTENT **************/
-#content {
-    /* display: none; */
-}
-
 #content .sectionwrapper .col {
     flex-grow: 1;
 
