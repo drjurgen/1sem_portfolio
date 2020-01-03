@@ -48,17 +48,67 @@ img {
     width: 100%;
 }
 
-/************** GENERELLE INDSTILLINGER SLUT **************/
-
-/************** 00 CV **************/
-#cv {
-    /* display: none; */
-}
-
-#cv .sectionwrapper {
+.sectionwrapper {
     display: flex;
     flex-direction: column;
     padding: 0 10px;
+}
+
+/************** GENERELLE INDSTILLINGER SLUT **************/
+
+
+
+/************** MOBIL MENU **************/
+.sectionwrapper .nav_menu {
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: #262938f8;
+    padding: 8px 0 35px 0;
+    margin-left: -10px;
+    box-shadow: 4px 4px 8px #00000048;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+}
+
+.sectionwrapper .nav_menu h3 {
+    margin: 0;
+    font-weight: 500;
+    color: #C45450;
+}
+
+.sectionwrapper .nav_menu .nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sectionwrapper .nav_menu .nav_links .menu_dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #C45450;
+    text-align: center;
+    margin: 0 4px;
+}
+
+.sectionwrapper .nav_menu .nav_links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.sectionwrapper .nav_menu .nav_links p {
+    position: relative;
+    top: 25%;   
+}
+/************** MOBIL MENU SLUT **************/
+
+
+
+/************** 00 CV **************/
+#cv {
+    display: none;
 }
 
 #cv header {
@@ -79,11 +129,11 @@ img {
 }
 
 #cv header .rect {
-    width: 120px;
+    width: 100px;
     height: 30px;
     border-radius: 20px;
     background-color: #C45450;
-    margin-left: 102px;
+    margin-left: 122px;
 }
 
 #cv h1 {
@@ -158,48 +208,165 @@ img {
 #cv .sectionwrapper .col_text .bottom p {
     margin: 6px 0;
 }
+/************** 00 CV SLUT **************/
 
-#cv .sectionwrapper .nav_menu {
-    bottom: 0;
-    width: 100vw;
-    position: fixed;
-    background-color: #262938f8;
-    padding: 8px 0 35px 0;
-    margin-left: -10px;
-    box-shadow: 4px 4px 8px #00000048;
-    text-align: center;
-    border-radius: 30px 30px 0 0;
+
+
+/************** 02 WEB **************/
+#web {
+    display: none;
 }
 
-#cv .sectionwrapper .nav_menu h3 {
-    margin: 0;
-    font-weight: 500;
-    color: #C45450;
+#web .sectionwrapper .col {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
 }
 
-#cv .sectionwrapper .nav_menu .nav_links {
+#web header {
+    padding: 0 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 15px;
 }
 
-#cv .sectionwrapper .nav_menu .nav_links .menu_dot {
-    height: 50px;
-    width: 50px;
+#web header .dot {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: #C45450;
-    text-align: center;
-    margin: 0 4px;
+    background-color: #7F6CB3;
+    margin-right: 10px;
 }
 
-#cv .sectionwrapper .nav_menu .nav_links a {
+#web header .rect {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #7F6CB3;
+    margin-left: 100px;
+}
+
+#web h1 {
+    color: #7F6CB3;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#web h1 strong {
+    font-size: 2.6rem;
+}
+
+#web .sectionwrapper .nav_menu h3 {
+    color: #7F6CB3;
+}
+
+#web .sectionwrapper .nav_menu .nav_links .menu_dot {
+    background-color: #7F6CB3;
+}
+
+#web .sectionwrapper .col {
+    padding-bottom: 10px;
+}
+
+#web .sectionwrapper .col:nth-child(3) {
+    padding-bottom: 135px;
+}
+
+#web .sectionwrapper .col h2 {
+    padding-top: 15px;
+    color: #7F6CB3;
+    margin: 10px 0 0 0;
+}
+
+#web .sectionwrapper p {
+    margin: 6px 0;
+}
+
+#web .sectionwrapper .col .text a {
     text-decoration: none;
-    font-size: 1.4rem;
-    font-weight: 300;
+    color: #7F6CB3;
+}
+/************** 02 WEB SLUT **************/
+
+
+/************** 03 UX **************/
+#ux {
+    /* display: none; */
 }
 
-#cv .sectionwrapper .nav_menu .nav_links p {
-    position: relative;
-    top: 25%;   
+#ux .sectionwrapper .col {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
 }
-/************** 00 CV SLUT **************/
+
+#ux header {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#ux header .dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #40B8E6;
+    margin-right: 10px;
+}
+
+#ux header .rect {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #40B8E6;
+    margin-left: 18px;
+}
+
+#ux h1 {
+    color: #40B8E6;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#ux h1 strong {
+    font-size: 2.6rem;
+}
+
+#ux .sectionwrapper .nav_menu h3 {
+    color: #40B8E6;
+}
+
+#ux .sectionwrapper .nav_menu .nav_links .menu_dot {
+    background-color: #40B8E6;
+}
+
+#ux .sectionwrapper .col {
+    padding-bottom: 10px;
+}
+
+#ux .sectionwrapper .col:nth-child(3) {
+    padding-bottom: 135px;
+}
+
+#ux .sectionwrapper .col h2 {
+    padding-top: 15px;
+    color: #40B8E6;
+    margin: 10px 0 0 0;
+}
+
+#ux .sectionwrapper p {
+    margin: 6px 0;
+}
+
+#ux .sectionwrapper .col .text a {
+    text-decoration: none;
+    color: #40B8E6;
+}
+/************** 03 UX SLUT **************/
