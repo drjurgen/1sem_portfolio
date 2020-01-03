@@ -294,7 +294,7 @@ img {
 
 /************** 03 UX **************/
 #ux {
-    /* display: none; */
+    display: none;
 }
 
 #ux .sectionwrapper .col {
@@ -326,7 +326,7 @@ img {
     height: 30px;
     border-radius: 20px;
     background-color: #40B8E6;
-    margin-left: 18px;
+    margin-left: 122px;
 }
 
 #ux h1 {
@@ -370,3 +370,83 @@ img {
     color: #40B8E6;
 }
 /************** 03 UX SLUT **************/
+
+
+/************** 04 ANIMATION **************/
+#animation {
+    /* display: none; */
+}
+
+#animation .sectionwrapper .col {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#animation header {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#animation header .dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #51B282;
+    margin-right: 10px;
+}
+
+#animation header .rect {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #51B282;
+    margin-left: 18px;
+}
+
+#animation h1 {
+    color: #51B282;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#animation h1 strong {
+    font-size: 2.6rem;
+}
+
+#animation .sectionwrapper .nav_menu h3 {
+    color: #51B282;
+}
+
+#animation .sectionwrapper .nav_menu .nav_links .menu_dot {
+    background-color: #51B282;
+}
+
+#animation .sectionwrapper .col {
+    padding-bottom: 10px;
+}
+
+#animation .sectionwrapper .col:nth-child(3) {
+    padding-bottom: 135px;
+}
+
+#animation .sectionwrapper .col h2 {
+    padding-top: 15px;
+    color: #51B282;
+    margin: 10px 0 0 0;
+}
+
+#animation .sectionwrapper p {
+    margin: 6px 0;
+}
+
+#animation .sectionwrapper .col .text a {
+    text-decoration: none;
+    color: #51B282;
+}
+/************** 04 ANIMATION SLUT **************/
