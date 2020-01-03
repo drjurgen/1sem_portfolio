@@ -57,6 +57,10 @@ img {
 .hide {
     display: none;
 }
+
+section {
+    overflow: hidden;
+}
 /************** GENERELLE INDSTILLINGER SLUT **************/
 
 
@@ -159,6 +163,10 @@ img {
 
 #cv .sectionwrapper .col_picture img {
     border: 2px solid #707070;
+}
+
+#cv .sectionwrapper p {
+    margin: 6px 0;
 }
 
 #cv .sectionwrapper .col_text {
@@ -514,3 +522,11 @@ img {
     color: #E38F53;
 }
 /************** 05 CONTENT SLUT **************/
+
+
+
+/************** ANIMATIONER **************/
+
+
+
+/************** ANIMATIONER SLUT **************/
