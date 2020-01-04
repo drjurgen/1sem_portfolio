@@ -66,51 +66,47 @@ section {
 
 
 /************** MOBIL MENU **************/
-.sectionwrapper .nav_menu {
+.nav_menu {
     bottom: 0;
     width: 100vw;
     position: fixed;
     background-color: #262938f8;
     padding: 8px 0 35px 0;
-    margin-left: -10px;
     box-shadow: 4px 4px 8px #00000048;
     text-align: center;
     border-radius: 30px 30px 0 0;
 }
 
-.sectionwrapper .nav_menu h3 {
+.nav_menu h3 {
     margin: 0;
     font-weight: 500;
-    color: #C45450;
 }
 
-.sectionwrapper .nav_menu .nav_links {
+.nav_menu .nav_links {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.sectionwrapper .nav_menu .nav_links .menu_dot {
+.nav_menu .nav_links .menu_dot {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #C45450;
     text-align: center;
     margin: 0 4px;
 }
 
-.sectionwrapper .nav_menu .nav_links a {
+.nav_menu .nav_links a {
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 300;
 }
 
-.sectionwrapper .nav_menu .nav_links p {
+.nav_menu .nav_links p {
     position: relative;
     top: 25%;   
 }
 /************** MOBIL MENU SLUT **************/
-
 
 
 /************** 00 CV **************/
@@ -524,9 +520,46 @@ section {
 /************** 05 CONTENT SLUT **************/
 
 
+/************** MENU COLORS **************/
+.cv_color {background-color: #C45450;}
+.cv_color_text {color: #C45450;}
+
+.web_color {background-color: #7F6CB3;}
+.web_color_text {color: #7F6CB3;}
+
+.ux_color {background-color: #40B8E6;}
+.ux_color_text {color: #40B8E6;}
+
+.animation_color {background-color: #51B282;}
+.animation_color_text {color: #51B282;}
+
+.content_color {background-color: #E38F53;}
+.content_color_text {color: #E38F53;}
+/************** MENU COLORS SLUT **************/
+
+
 
 /************** ANIMATIONER **************/
-
-
-
+.show {
+    animation-name: show_kf;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
+@keyframes show_kf {
+    0% {
+        display: none;
+        transform: translateY(1000px) scaleY(2) scaleX(0.5);
+        transform-origin: 50% 0%;
+        filter: blur(20px);
+        opacity: 0;
+    }
+    100% {
+        display: inherit;
+        transform: translateY(0) scaleY(1) scaleX(1);
+        transform-origin: 50% 50%;
+        filter: blur(0);
+        opacity: 1;
+    }
+}
 /************** ANIMATIONER SLUT **************/
