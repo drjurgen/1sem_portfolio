@@ -563,6 +563,284 @@ section {
 /************** MENU COLORS SLUT **************/
 
 
+/************** MEDIA QUERY - DESKTOP **************/
+@media screen and (min-width: 1200px) {
+    
+    /************** GENERELLE INDSTILLINER **************/
+    .sectionwrapper {
+        padding: 30px 200px 0 200px;
+        max-width: 1520px‬;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /************** GENERELLE INDSTILLINER SLUT **************/
+    
+
+
+    /************** DESKTOP MENU **************/
+    .nav_menu {
+        bottom: 3%;
+        width: 26vw;
+        margin: 0 37vw;
+        position: fixed;
+        background-color: #262938f8;
+        padding: 8px 0 15px 0;
+        box-shadow: 4px 4px 8px #00000048;
+        text-align: center;
+        border-radius: 120px;
+    }
+    /************** DESKTOP MENU SLUT **************/
+    
+
+
+    /************** DEKSTOP HEADER **************/
+    header {
+        padding: 60px 200px 0 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    
+    header .dot {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #C45450;
+        margin-right: 10px;
+    }
+
+    header .rect {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #C45450;
+        position: absolute;
+        right: 200px;
+    }
+    /************** DEKSTOP HEADER SLUT **************/
+
+
+    
+
+
+
+    /************** 01 CV **************/
+    #cv header {
+        padding: 30px 200px 0 200px;
+    }
+    
+    #cv header .dot {
+        background-color: #C45450;
+    }
+
+    #cv header .rect {
+        background-color: #C45450;
+    }
+
+    #cv .sectionwrapper .col_picture {
+        flex-grow: 1;
+        flex-basis: 500px;
+        padding-right: 30px;
+    }
+
+    #cv .sectionwrapper .col_text {
+        flex-grow: 1;
+        flex-basis: 500px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    #cv .sectionwrapper .col_text .top {
+        padding-bottom: 40px;
+    }
+
+    #cv .sectionwrapper .col_text .bottom {
+        flex-grow: 1;
+        flex-basis: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #cv .sectionwrapper .col_text .bottom .col:last-child {
+        padding-left: 15px;
+    }
+    /************** 01 CV SLUT **************/
+
+
+
+
+
+    /************** 02 WEB **************/
+    #web header {
+        padding: 30px 200px 0 200px;
+    }
+    
+    #web header .dot {
+        background-color: #7F6CB3;
+    }
+
+    #web header .rect {
+        background-color: #7F6CB3;
+    }
+
+    #web .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #web .sectionwrapper {
+        padding-top: 120px;
+    }
+
+    #web .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #web .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #web .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 02 WEB SLUT **************/
+
+
+
+
+
+    /************** 03 UX **************/
+    #ux header {
+        padding: 30px 200px 0 200px;
+    }
+    
+    #ux header .dot {
+        background-color: #40B8E6;
+    }
+
+    #ux header .rect {
+        background-color: #40B8E6;
+    }
+
+    #ux .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #ux .sectionwrapper {
+        padding-top: 120px;
+    }
+
+    #ux .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #ux .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #ux .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 03 UX SLUT **************/
+
+
+
+
+
+    /************** 04 ANIMATION **************/
+    #animation header {
+        padding: 30px 200px 0 200px;
+    }
+    
+    #animation header .dot {
+        background-color: #51B282;
+    }
+
+    #animation header .rect {
+        background-color: #51B282;
+    }
+
+    #animation .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #animation .sectionwrapper {
+        padding-top: 120px;
+    }
+
+    #animation .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #animation .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #animation .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 04 ANIMATION SLUT **************/
+
+
+
+
+
+    /************** 05 CONTENT **************/
+    #content header {
+        padding: 30px 200px 0 200px;
+    }
+    
+    #content header .dot {
+        background-color: #E38F53;
+    }
+
+    #content header .rect {
+        background-color: #E38F53;
+    }
+
+    #content .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #content .sectionwrapper {
+        padding-top: 120px;
+    }
+
+    #content .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #content .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #content .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+
+    /************** 05 CONTENT SLUT **************/
+
+
+
+
+
+
+
+
+
+
+}
+/************** MEDIA QUERY - DESKTOP SLUT **************/
+
 
 /************** ANIMATIONER **************/
 @keyframes cv_color_kf {
@@ -594,14 +872,6 @@ section {
     10% {transform: scale(0.4);}
     100% {background-color: #E38F53; transform: scale(1);} 
 }
-
-
-
-
-
-
-
-
 
 .show {
     animation-name: show_kf;
