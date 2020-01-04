@@ -245,7 +245,7 @@ section {
     height: 30px;
     border-radius: 20px;
     background-color: #7F6CB3;
-    margin-left: 100px;
+    margin-left: 102px;
 }
 
 #web h1 {
@@ -474,7 +474,7 @@ section {
     height: 30px;
     border-radius: 20px;
     background-color: #E38F53;
-    margin-left: 40px;
+    margin-left: 42px;
 }
 
 #content h1 {
@@ -521,25 +521,88 @@ section {
 
 
 /************** MENU COLORS **************/
-.cv_color {background-color: #C45450;}
+.cv_color {
+    animation-name: cv_color_kf;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
 .cv_color_text {color: #C45450;}
 
-.web_color {background-color: #7F6CB3;}
+.web_color {
+    animation-name: web_color_kf;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
 .web_color_text {color: #7F6CB3;}
 
-.ux_color {background-color: #40B8E6;}
+.ux_color {
+    animation-name: ux_color_kf;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
 .ux_color_text {color: #40B8E6;}
 
-.animation_color {background-color: #51B282;}
+.animation_color {
+    animation-name: animation_color_kf;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
 .animation_color_text {color: #51B282;}
 
-.content_color {background-color: #E38F53;}
+.content_color {
+    animation-name: content_color_kf;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    animation-fill-mode: forwards;
+}
 .content_color_text {color: #E38F53;}
 /************** MENU COLORS SLUT **************/
 
 
 
 /************** ANIMATIONER **************/
+@keyframes cv_color_kf {
+    0% {background-color: #707070; transform: scale(1);}
+    10% {transform: scale(0.4);}
+    100% {background-color: #C45450; transform: scale(1);} 
+}
+
+@keyframes web_color_kf {
+    0% {background-color: #707070; transform: scale(1);}
+    10% {transform: scale(0.4);}
+    100% {background-color: #7F6CB3; transform: scale(1);} 
+}
+
+@keyframes ux_color_kf {
+    0% {background-color: #707070; transform: scale(1);}
+    10% {transform: scale(0.4);}
+    100% {background-color: #40B8E6; transform: scale(1);} 
+}
+
+@keyframes animation_color_kf {
+    0% {background-color: #707070; transform: scale(1);}
+    10% {transform: scale(0.4);}
+    100% {background-color: #51B282; transform: scale(1);} 
+}
+
+@keyframes content_color_kf {
+    0% {background-color: #707070; transform: scale(1);}
+    10% {transform: scale(0.4);}
+    100% {background-color: #E38F53; transform: scale(1);} 
+}
+
+
+
+
+
+
+
+
+
 .show {
     animation-name: show_kf;
     animation-duration: 1s;
@@ -551,7 +614,7 @@ section {
         display: none;
         transform: translateY(1000px) scaleY(2) scaleX(0.5);
         transform-origin: 50% 0%;
-        filter: blur(20px);
+        filter: blur(10px);
         opacity: 0;
     }
     100% {
@@ -562,4 +625,6 @@ section {
         opacity: 1;
     }
 }
+
+
 /************** ANIMATIONER SLUT **************/
