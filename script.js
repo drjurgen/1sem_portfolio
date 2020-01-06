@@ -1,7 +1,5 @@
 window.addEventListener("load", sidenVises);
 
-
-
 function sidenVises() {
     console.log("sidenVises");
 
@@ -42,6 +40,7 @@ function cvShow() {
     document.querySelector(".forloeb").classList.remove("content_color_text");
     document.querySelector(".forloeb").classList.add("cv_color_text");
 
+    window.scrollTo(0, 0);
 }
 
 function webShow() {
@@ -74,6 +73,8 @@ function webShow() {
     document.querySelector(".forloeb").classList.remove("animation_color_text");
     document.querySelector(".forloeb").classList.remove("content_color_text");
     document.querySelector(".forloeb").classList.add("web_color_text");
+
+    window.scrollTo(0, 0);
 }
 
 function uxShow() {
@@ -106,6 +107,7 @@ function uxShow() {
     document.querySelector(".forloeb").classList.remove("content_color_text");
     document.querySelector(".forloeb").classList.add("ux_color_text");
 
+    window.scrollTo(0, 0);
 }
 
 function animationShow() {
@@ -137,6 +139,8 @@ function animationShow() {
     document.querySelector(".forloeb").classList.remove("animation_color_text");
     document.querySelector(".forloeb").classList.remove("content_color_text");
     document.querySelector(".forloeb").classList.add("animation_color_text");
+
+    window.scrollTo(0, 0);
 }
 
 function contentShow() {
@@ -168,5 +172,7 @@ function contentShow() {
     document.querySelector(".forloeb").classList.remove("animation_color_text");
     document.querySelector(".forloeb").classList.remove("content_color_text");
     document.querySelector(".forloeb").classList.add("content_color_text");
+
+    window.scrollTo(0, 0);
 }
 
