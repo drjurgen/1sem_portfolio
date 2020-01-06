@@ -8,13 +8,19 @@ function sidenVises() {
     document.querySelector(".ux_link").addEventListener("click", uxShow);
     document.querySelector(".animation_link").addEventListener("click", animationShow);
     document.querySelector(".content_link").addEventListener("click", contentShow);
+
+    document.querySelector(".dot_grid").addEventListener("click", cvShow);
 }
 
 function cvShow() {
     console.log("cvShow");
     document.title = "PORTFOLIO - 01 CV";
 
+    document.querySelector("#landing_page").classList.add("hide");
+    document.querySelector(".nav_menu").classList.remove("hide");
+
     document.querySelector("#cv").classList.remove("show");
+    document.querySelector(".nav_menu").classList.remove("show");
 
     document.querySelector("#web").classList.add("hide");
     document.querySelector("#ux").classList.add("hide");
@@ -23,6 +29,7 @@ function cvShow() {
 
     document.querySelector("#cv").classList.remove("hide");
     document.querySelector("#cv").classList.add("show");
+    document.querySelector(".nav_menu").classList.add("show");
 
     let menuDot = document.querySelectorAll(".menu_dot");
     for (i = 0; i < menuDot.length; i++) {

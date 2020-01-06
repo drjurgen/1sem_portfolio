@@ -625,8 +625,8 @@ section {
     /************** LAPTOP MENU **************/
     .nav_menu {
         bottom: 3%;
-        width: 60vw;
-        margin: 0 20vw;
+        width: 64vw;
+        margin: 0 18vw;
         position: fixed;
         background-color: #262938f8;
         padding: 8px 0 15px 0;
@@ -1945,6 +1945,10 @@ section {
 
 
 
+
+
+
+
 /************** MEDIA QUERY - DESKTOP **************/
 @media screen and (min-width: 1500px) {
     
@@ -2242,6 +2246,121 @@ section {
 
 
 
+/************** LANDING PAGE **************/
+#landing_page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('media/bg_img.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+    overflow: hidden;
+}
+
+#landing_page .sectionwrapper {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#landing_page .container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 25vh;
+    display: flex;
+    align-self: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#landing_page .container h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#landing_page .container h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#landing_page .container p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+#landing_page .container p:last-child {
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+}
+  
+
+.dot_grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+  
+.dot_grid div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: #2e3243 5px 5px 20px;
+
+    animation-name: dot_grid_kf;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.dot_grid div:nth-child(1) {
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.dot_grid div:nth-child(2) {
+    top: 8px;
+    left: 56px;
+}
+
+.dot_grid div:nth-child(3) {
+    top: 32px;
+    left: 8px;
+}
+
+.dot_grid div:nth-child(4) {
+    top: 32px;
+    left: 32px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.dot_grid div:nth-child(5) {
+    top: 56px;
+    left: 8px;
+}
+.dot_grid div:nth-child(6) {
+    top: 56px;
+    left: 32px;
+}
+
+.dot_grid div:nth-child(7) {
+    top: 56px;
+    left: 56px;
+}
+/************** LANDING PAGE SLUT **************/
+
+
 /************** ANIMATIONER **************/
 @keyframes cv_color_kf {
     0% {background-color: #707070; transform: scale(1);}
@@ -2297,5 +2416,15 @@ section {
     }
 }
 
+
+
+@keyframes dot_grid_kf {
+    0% {opacity: 1; background-color: #C45450;}
+    20% {background-color: #7F6CB3;}
+    40% {background-color: #40B8E6;}
+    60% {background-color: #51B282;}
+    80% {background-color: #E38F53;}
+    100% {background-color: #C45450;}
+}
 
 /************** ANIMATIONER SLUT **************/
