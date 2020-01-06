@@ -847,7 +847,7 @@ section {
         flex-direction: column;
     }
 
-    #ux .sectionwrapper .col p a {
+    #animation .sectionwrapper .col p a {
         transition: .5s;
     }
 
@@ -887,6 +887,10 @@ section {
     #content .sectionwrapper {
         padding-top: 0;
         flex-direction: column;
+    }
+
+    #content .sectionwrapper .col p a {
+        transition: .5s;
     }
 
     #content .sectionwrapper .col p a:hover {
@@ -2298,7 +2302,14 @@ section {
     font-size: 1rem;
     margin: 10px 0 0 0;
 }
-  
+
+.hide_landing {
+    animation-name: hide_landing_kf;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 .dot_grid {
     display: inline-block;
@@ -2416,8 +2427,6 @@ section {
     }
 }
 
-
-
 @keyframes dot_grid_kf {
     0% {opacity: 1; background-color: #C45450;}
     20% {background-color: #7F6CB3;}
@@ -2427,4 +2436,15 @@ section {
     100% {background-color: #C45450;}
 }
 
+@keyframes hide_landing_kf {
+    0% {opacity: 1;}
+    100% {opacity: 0; display: none;}
+}
+
 /************** ANIMATIONER SLUT **************/
+
+
+.nav_menu h3 {
+    font-size: 1.15rem;
+    margin-bottom: -6px;
+}

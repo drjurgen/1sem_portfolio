@@ -9,7 +9,17 @@ function sidenVises() {
     document.querySelector(".animation_link").addEventListener("click", animationShow);
     document.querySelector(".content_link").addEventListener("click", contentShow);
 
-    document.querySelector(".dot_grid").addEventListener("click", cvShow);
+    document.querySelector(".dot_grid").addEventListener("click", portfolioShow);
+}
+
+function portfolioShow() {
+    console.log("portfolioShow");
+
+    document.querySelector("#landing_page").classList.add("hide_landing");
+
+    document.querySelector("#landing_page").addEventListener("animationend", cvShow);
+
+
 }
 
 function cvShow() {
@@ -17,6 +27,7 @@ function cvShow() {
     document.title = "PORTFOLIO - 01 CV";
 
     document.querySelector("#landing_page").classList.add("hide");
+
     document.querySelector(".nav_menu").classList.remove("hide");
 
     document.querySelector("#cv").classList.remove("show");
