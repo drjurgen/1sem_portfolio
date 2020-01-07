@@ -575,1382 +575,9 @@ section {
 /************** MENU COLORS SLUT **************/
 
 
-/************** MEDIA QUERY - 500px **************/
-@media screen and (min-width: 500px) and (min-resolution: 120dpi) {
-    
-    /************** GENERELLE INDSTILLINER **************/
-    .sectionwrapper {
-        padding: 0 30px;
-        max-width: 1520px‬;
-
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-
-    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
-        font-size: 2rem;
-    }
-    
-    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
-        font-size: 1.3rem;
-    }
-    
-    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
-        font-size: 1.3rem;
-    }
-    
-    #cv p, #web p, #ux p, #animation p, #content p {
-        font-size: .85rem;
-    }
-    
-    #cv a, #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-
-    #web p, #ux p, #animation p, #content p {
-        font-size: .8rem;
-    }
-    
-    #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-    /************** GENERELLE INDSTILLINER SLUT **************/
-    
-
-
-    /************** LAPTOP MENU **************/
-    .nav_menu {
-        bottom: 3%;
-        width: 64vw;
-        margin: 0 18vw;
-        position: fixed;
-        background-color: #262938f8;
-        padding: 8px 0 15px 0;
-        box-shadow: 4px 4px 8px #00000048;
-        text-align: center;
-        border-radius: 120px;
-    }
-    /************** LAPTOP MENU SLUT **************/
-    
-
-
-    /************** LAPTOP HEADER **************/
-    header {
-        padding: 0 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    .nav_menu .nav_links .menu_dot {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #C45450;
-    }
-
-    .nav_menu .nav_links p {
-        top: 22%;
-    }
-
-    header .rect {
-        width: 100px;
-        height: 30px;
-        border-radius: 20px;
-        background-color: #C45450;
-        position: absolute;
-        right: 30px;
-    }
-    /************** LAPTOP HEADER SLUT **************/
-
-
-    
-
-
-
-    /************** 01 CV **************/
-    #cv header {
-        padding: 0 30px;
-    }
-    
-    #cv header .dot {
-        background-color: #C45450;
-    }
-
-    #cv header .rect {
-        background-color: #C45450;
-    }
-
-    #cv .sectionwrapper {
-        overflow: hidden;
-    }
-
-    #cv .sectionwrapper .col_picture h2 {
-        font-size: 1.4rem;
-    }
-
-    #cv .sectionwrapper .col_picture img {
-        display: none;
-    }
-
-    #cv .sectionwrapper .col_picture .cv_img {
-        display: block;
-        height: 320px;
-        width: 100%;
-        border: 2px solid #707070;
-        background-position-y: 10%;
-    }
-
-    #cv .sectionwrapper .col_picture {
-        flex-grow: 1;
-        flex-basis: 250px;
-    }
-
-    #cv .sectionwrapper .col_text {
-        flex-grow: 1;
-        flex-basis: 550px;
-        padding-top: 20px;
-    }
-
-    #cv .sectionwrapper .col_text .top {
-        padding-bottom: 0;
-    }
-
-    #cv .sectionwrapper .col_text .bottom {
-        flex-grow: 1;
-        flex-basis: 250px;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 0;
-        justify-content: space-between;
-        padding-bottom: 130px;
-    }
-
-    #cv .sectionwrapper .col_text .bottom p {
-        font-size: 0.78rem;
-    }
-    /************** 01 CV SLUT **************/
-
-
-
-
-
-    /************** 02 WEB **************/
-    #web header {
-        padding: 0 30px;
-    }
-    
-    #web header .dot {
-        background-color: #7F6CB3;
-    }
-
-    #web header .rect {
-        background-color: #7F6CB3;
-    }
-
-    #web .sectionwrapper .col {
-        flex-basis: 200px;
-        flex-grow: 1;
-        padding: 0;
-    }
-
-    #web .sectionwrapper {
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    #web .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-    #web .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 02 WEB SLUT **************/
-
-
-
-
-
-    /************** 03 UX **************/
-    #ux header {
-        padding: 0 30px;
-    }
-    
-    #ux header .dot {
-        background-color: #40B8E6;
-    }
-
-    #ux header .rect {
-        background-color: #40B8E6;
-    }
-
-    #ux .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-    }
-
-    #ux .sectionwrapper .col:last-child {
-        padding-bottom: 130px;
-    }
-
-    #ux .sectionwrapper {
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    #ux .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-    #ux .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 03 UX SLUT **************/
-
-
-
-
-
-    /************** 04 ANIMATION **************/
-    #animation header {
-        padding: 0 30px;
-    }
-    
-    #animation header .dot {
-        background-color: #51B282;
-    }
-
-    #animation header .rect {
-        background-color: #51B282;
-    }
-
-    #animation .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-    }
-
-    #animation .sectionwrapper .col:last-child {
-        padding-bottom: 130px;
-    }
-
-    #animation .sectionwrapper {
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    #animation .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-
-    #animation .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 04 ANIMATION SLUT **************/
-
-
-
-
-
-    /************** 05 CONTENT **************/
-    #content header {
-        padding: 0 30px;
-    }
-    
-    #content header .dot {
-        background-color: #E38F53;
-    }
-
-    #content header .rect {
-        background-color: #E38F53;
-    }
-
-    #content .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-    }
-
-    #content .sectionwrapper .col:last-child {
-        padding-bottom: 130px;
-    }
-
-    #content .sectionwrapper {
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    #content .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-    #content .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 05 CONTENT SLUT **************/
-
-
-
-
-
-
-
-
-
-
-}
-/************** MEDIA QUERY - 500px SLUT **************/
-
-/************** MEDIA QUERY - 768px **************/
-@media screen and (min-width: 768px) and (min-resolution: 120dpi) {
-    
-    /************** GENERELLE INDSTILLINER **************/
-    .sectionwrapper {
-        padding: 0 30px;
-        max-width: 1520px‬;
-
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-
-    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
-        font-size: 2rem;
-    }
-    
-    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
-        font-size: 1.3rem;
-    }
-    
-    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
-        font-size: 1.3rem;
-    }
-    
-    #cv p, #web p, #ux p, #animation p, #content p {
-        font-size: .85rem;
-    }
-    
-    #cv a, #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-
-    #web p, #ux p, #animation p, #content p {
-        font-size: .8rem;
-    }
-    
-    #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-    /************** GENERELLE INDSTILLINER SLUT **************/
-    
-
-
-    /************** LAPTOP MENU **************/
-    .nav_menu {
-        bottom: 3%;
-        width: 50vw;
-        margin: 0 25vw;
-        position: fixed;
-        background-color: #262938f8;
-        padding: 8px 0 15px 0;
-        box-shadow: 4px 4px 8px #00000048;
-        text-align: center;
-        border-radius: 120px;
-    }
-    /************** LAPTOP MENU SLUT **************/
-    
-
-
-    /************** LAPTOP HEADER **************/
-    header {
-        padding: 0 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    .nav_menu .nav_links .menu_dot {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #C45450;
-    }
-
-    .nav_menu .nav_links p {
-        top: 22%;
-    }
-
-    header .rect {
-        width: 100px;
-        height: 30px;
-        border-radius: 20px;
-        background-color: #C45450;
-        position: absolute;
-        right: 30px;
-    }
-    /************** LAPTOP HEADER SLUT **************/
-
-
-    
-
-
-
-    /************** 01 CV **************/
-    #cv header {
-        padding: 0 30px;
-    }
-    
-    #cv header .dot {
-        background-color: #C45450;
-    }
-
-    #cv header .rect {
-        background-color: #C45450;
-    }
-
-    #cv .sectionwrapper {
-        overflow: hidden;
-    }
-
-    #cv .sectionwrapper .col_picture h2 {
-        font-size: 1.4rem;
-    }
-
-    #cv .sectionwrapper .col_picture img {
-        display: none;
-    }
-
-    #cv .sectionwrapper .col_picture .cv_img {
-        display: block;
-        height: 320px;
-        width: 100%;
-        border: 2px solid #707070;
-        background-position-y: 10%;
-    }
-
-    #cv .sectionwrapper .col_picture {
-        flex-grow: 1;
-        flex-basis: 250px;
-    }
-
-    #cv .sectionwrapper .col_text {
-        flex-grow: 1;
-        flex-basis: 550px;
-        padding-top: 20px;
-    }
-
-    #cv .sectionwrapper .col_text .top {
-        padding-bottom: 0;
-    }
-
-    #cv .sectionwrapper .col_text .bottom {
-        flex-grow: 1;
-        flex-basis: 250px;
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 0;
-        justify-content: space-between;
-        padding-bottom: 130px;
-    }
-
-    #cv .sectionwrapper .col_text .bottom p {
-        font-size: 0.78rem;
-    }
-    /************** 01 CV SLUT **************/
-
-
-
-
-
-    /************** 02 WEB **************/
-    #web header {
-        padding: 0 30px;
-    }
-    
-    #web header .dot {
-        background-color: #7F6CB3;
-    }
-
-    #web header .rect {
-        background-color: #7F6CB3;
-    }
-
-    #web .sectionwrapper .col {
-        flex-basis: 200px;
-        flex-grow: 1;
-        padding: 0;
-    }
-
-    #web .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #web .sectionwrapper .col:first-child {
-        padding-right: 30px;
-    }
-
-    #web .sectionwrapper .col:last-child {
-        padding-left: 30px;
-    }
-
-    #web .sectionwrapper .col:nth-child(2) {
-        padding: 0 15px;
-    }
-
-    #web .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-    #web .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-
-
-    /************** 02 WEB SLUT **************/
-
-
-
-
-
-    /************** 03 UX **************/
-    #ux header {
-        padding: 0 30px;
-    }
-    
-    #ux header .dot {
-        background-color: #40B8E6;
-    }
-
-    #ux header .rect {
-        background-color: #40B8E6;
-    }
-
-    #ux .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-        padding-bottom: 130px;
-    }
-
-    #ux .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #ux .sectionwrapper .col:first-child {
-        padding-right: 30px;
-    }
-
-    #ux .sectionwrapper .col:last-child {
-        padding-left: 30px;
-    }
-
-    #ux .sectionwrapper .col:nth-child(2) {
-        padding: 0 15px;
-    }
-
-    #ux .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-    #ux .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 03 UX SLUT **************/
-
-
-
-
-
-    /************** 04 ANIMATION **************/
-    #animation header {
-        padding: 0 30px;
-    }
-    
-    #animation header .dot {
-        background-color: #51B282;
-    }
-
-    #animation header .rect {
-        background-color: #51B282;
-    }
-
-    #animation .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-        padding-bottom: 130px;
-    }
-
-    #animation .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #animation .sectionwrapper .col:first-child {
-        padding-right: 30px;
-    }
-
-    #animation .sectionwrapper .col:last-child {
-        padding-left: 30px;
-    }
-
-    #animation .sectionwrapper .col:nth-child(2) {
-        padding: 0 15px;
-    }
-
-    #ux .sectionwrapper .col p a {
-        transition: .5s;
-    }
-
-
-    #animation .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 04 ANIMATION SLUT **************/
-
-
-
-
-
-    /************** 05 CONTENT **************/
-    #content header {
-        padding: 0 30px;
-    }
-    
-    #content header .dot {
-        background-color: #E38F53;
-    }
-
-    #content header .rect {
-        background-color: #E38F53;
-    }
-
-    #content .sectionwrapper .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: 0;
-        padding-bottom: 130px;
-    }
-
-    #content .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #content .sectionwrapper .col:first-child {
-        padding-right: 30px;
-    }
-
-    #content .sectionwrapper .col:last-child {
-        padding-left: 30px;
-    }
-
-    #content .sectionwrapper .col:nth-child(2) {
-        padding: 0 15px;
-    }
-
-    #content .sectionwrapper .col p a:hover {
-        color: #707070;
-    }
-    /************** 05 CONTENT SLUT **************/
-
-
-
-
-
-
-
-
-
-
-}
-/************** MEDIA QUERY - 768px SLUT **************/
-
-/************** MEDIA QUERY - 992px **************/
-@media screen and (min-width: 992px) and (min-resolution: 120dpi) {
-    
-    /************** GENERELLE INDSTILLINER **************/
-    .sectionwrapper {
-        padding: 0 30px;
-        max-width: 1520px‬;
-
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-
-    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
-        font-size: 2rem;
-    }
-    
-    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
-        font-size: 1.3rem;
-    }
-    
-    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
-        font-size: 1.3rem;
-    }
-    
-    #cv p, #web p, #ux p, #animation p, #content p {
-        font-size: 13px;
-    }
-    
-    #cv a, #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-
-    #web p, #ux p, #animation p, #content p {
-        font-size: 0.75rem;
-    }
-    
-    #web a, #ux a, #animation a, #content a {
-        font-size: 0.75rem;
-    }
-    /************** GENERELLE INDSTILLINER SLUT **************/
-    
-
-
-    /************** LAPTOP MENU **************/
-    .nav_menu {
-        bottom: 3%;
-        width: 40vw;
-        margin: 0 30vw;
-        position: fixed;
-        background-color: #262938f8;
-        padding: 8px 0 15px 0;
-        box-shadow: 4px 4px 8px #00000048;
-        text-align: center;
-        border-radius: 120px;
-    }
-    /************** LAPTOP MENU SLUT **************/
-    
-
-
-    /************** LAPTOP HEADER **************/
-    header {
-        padding: 0 60px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    .nav_menu .nav_links .menu_dot {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #C45450;
-    }
-
-    .nav_menu .nav_links p {
-        top: 22%;
-    }
-
-    header .rect {
-        width: 100px;
-        height: 30px;
-        border-radius: 20px;
-        background-color: #C45450;
-        position: absolute;
-        right: 30px;
-    }
-    /************** LAPTOP HEADER SLUT **************/
-
-
-    
-
-
-
-    /************** 01 CV **************/
-    #cv header {
-        padding: 0 30px;
-    }
-    
-    #cv header .dot {
-        background-color: #C45450;
-    }
-
-    #cv header .rect {
-        background-color: #C45450;
-    }
-
-    #cv .sectionwrapper {
-        overflow: hidden;
-        flex-direction: row;
-    }
-
-    #cv .sectionwrapper .col_picture h2 {
-        font-size: 1.4rem;
-    }
-
-    #cv .sectionwrapper .col_picture img {
-        display: none;
-    }
-
-    #cv .sectionwrapper .col_picture .cv_img {
-        display: block;
-        height: 85%;
-        width: 100%;
-        border: 2px solid #707070;
-    }
-
-    #cv .sectionwrapper .col_picture {
-        flex-grow: 1;
-        flex-basis: 250px;
-        padding-right: 15px;
-    }
-
-    #cv .sectionwrapper .col_text {
-        flex-grow: 1;
-        flex-basis: 550px;
-        padding-left: 15px;
-        padding-top: 20px;
-    }
-
-    #cv .sectionwrapper .col_text .top {
-        padding-bottom: 0;
-    }
-
-    #cv .sectionwrapper .col_text .bottom {
-        flex-grow: 1;
-        flex-basis: 250px;
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 0;
-        justify-content: space-between;
-    }
-
-    #cv .sectionwrapper .col_text .bottom p {
-        font-size: 0.78rem;
-    }
-    /************** 01 CV SLUT **************/
-
-
-
-
-
-    /************** 02 WEB **************/
-    #web header {
-        padding: 0 30px;
-    }
-    
-    #web header .dot {
-        background-color: #7F6CB3;
-    }
-
-    #web header .rect {
-        background-color: #7F6CB3;
-    }
-
-    #web .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #web .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #web .sectionwrapper .col br {
-        display: block;
-    }
-
-    #web .sectionwrapper .col:first-child {
-        padding-right: 20px;
-    }
-
-    #web .sectionwrapper .col:nth-child(2) {
-        padding: 0 10px;
-    }
-
-    #web .sectionwrapper .col:last-child {
-        padding-left: 20px;
-    }
-    /************** 02 WEB SLUT **************/
-
-
-
-
-
-    /************** 03 UX **************/
-    #ux header {
-        padding: 0 30px;
-    }
-    
-    #ux header .dot {
-        background-color: #40B8E6;
-    }
-
-    #ux header .rect {
-        background-color: #40B8E6;
-    }
-
-    #ux .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #ux .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #ux .sectionwrapper .col br {
-        display: block;
-    }
-
-    #ux .sectionwrapper .col:first-child {
-        padding-right: 20px;
-    }
-
-    #ux .sectionwrapper .col:nth-child(2) {
-        padding: 0 10px;
-    }
-
-    #ux .sectionwrapper .col:last-child {
-        padding-left: 20px;
-    }
-    /************** 03 UX SLUT **************/
-
-
-
-
-
-    /************** 04 ANIMATION **************/
-    #animation header {
-        padding: 0 30px;
-    }
-    
-    #animation header .dot {
-        background-color: #51B282;
-    }
-
-    #animation header .rect {
-        background-color: #51B282;
-    }
-
-    #animation .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #animation .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #animation .sectionwrapper .col br {
-        display: block;
-    }
-
-    #animation .sectionwrapper .col:first-child {
-        padding-right: 20px;
-    }
-
-    #animation .sectionwrapper .col:nth-child(2) {
-        padding: 0 10px;
-    }
-
-    #animation .sectionwrapper .col:last-child {
-        padding-left: 20px;
-    }
-    /************** 04 ANIMATION SLUT **************/
-
-
-
-
-
-    /************** 05 CONTENT **************/
-    #content header {
-        padding: 0 30px;
-    }
-    
-    #content header .dot {
-        background-color: #E38F53;
-    }
-
-    #content header .rect {
-        background-color: #E38F53;
-    }
-
-    #content .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #content .sectionwrapper {
-        padding-top: 0;
-        flex-direction: row;
-    }
-
-    #content .sectionwrapper .col br {
-        display: inherit;
-    }
-
-    #content .sectionwrapper .col br:last-child {
-        display: inline;
-    }
-
-    #content .sectionwrapper .col:first-child {
-        padding-right: 20px;
-    }
-
-    #content .sectionwrapper .col:nth-child(2) {
-        padding: 0 10px;
-    }
-
-    #content .sectionwrapper .col:last-child {
-        padding-left: 20px;
-    }
-    /************** 05 CONTENT SLUT **************/
-
-
-
-
-
-
-
-
-
-
-}
-/************** MEDIA QUERY - 992px SLUT **************/
-
-/************** MEDIA QUERY - LAPTOP **************/
-@media screen and (min-width: 1200px) and (min-resolution: 120dpi) {
-    
-    /************** GENERELLE INDSTILLINER **************/
-    .sectionwrapper {
-        padding: 0 60px;
-        max-width: 1520px‬;
-
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-
-    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
-        font-size: 2rem;
-    }
-    
-    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
-        font-size: 1.4rem;
-    }
-    
-    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
-        font-size: 1.3rem;
-    }
-    
-    #cv p, #web p, #ux p, #animation p, #content p {
-        font-size: 13px;
-    }
-    
-    #cv a, #web a, #ux a, #animation a, #content a {
-        font-size: 0.8rem;
-    }
-    /************** GENERELLE INDSTILLINER SLUT **************/
-    
-
-
-    /************** LAPTOP MENU **************/
-    .nav_menu {
-        bottom: 3%;
-        width: 40vw;
-        margin: 0 30vw;
-        position: fixed;
-        background-color: #262938f8;
-        padding: 8px 0 15px 0;
-        box-shadow: 4px 4px 8px #00000048;
-        text-align: center;
-        border-radius: 120px;
-    }
-    /************** LAPTOP MENU SLUT **************/
-    
-
-
-    /************** LAPTOP HEADER **************/
-    header {
-        padding: 0 60px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-    
-    .nav_menu .nav_links .menu_dot {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #C45450;
-    }
-
-    .nav_menu .nav_links p {
-        top: 22%;
-    }
-
-    header .rect {
-        width: 100px;
-        height: 30px;
-        border-radius: 20px;
-        background-color: #C45450;
-        position: absolute;
-        right: 60px;
-    }
-    /************** LAPTOP HEADER SLUT **************/
-
-
-    
-
-
-
-    /************** 01 CV **************/
-    #cv header {
-        padding: 0 60px;
-    }
-    
-    #cv header .dot {
-        background-color: #C45450;
-    }
-
-    #cv header .rect {
-        background-color: #C45450;
-    }
-
-    #cv .sectionwrapper {
-        overflow: hidden;
-    }
-
-    #cv .sectionwrapper .col_picture {
-        flex-grow: 1;
-        flex-basis: 400px;
-        padding-right: 15px;
-    }
-
-    #cv .sectionwrapper .col_text {
-        flex-grow: 1;
-        flex-basis: 600px;
-        padding-left: 15px;
-        padding-top: 20px;
-    }
-
-    #cv .sectionwrapper .col_text .top {
-        padding-bottom: 0;
-    }
-
-    #cv .sectionwrapper .col_text .bottom {
-        flex-grow: 1;
-        flex-basis: 250px;
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 0;
-        justify-content: space-between;
-    }
-
-    #cv .sectionwrapper .col_text .bottom p {
-        font-size: 0.8rem;
-    }
-    /************** 01 CV SLUT **************/
-
-
-
-
-
-    /************** 02 WEB **************/
-    #web header {
-        padding: 0 60px;
-    }
-    
-    #web header .dot {
-        background-color: #7F6CB3;
-    }
-
-    #web header .rect {
-        background-color: #7F6CB3;
-    }
-
-    #web .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #web .sectionwrapper {
-        padding-top: 0;
-    }
-
-    #web .sectionwrapper .col:first-child {
-        padding-right: 50px;
-    }
-
-    #web .sectionwrapper .col:nth-child(2) {
-        padding: 0 25px;
-    }
-
-    #web .sectionwrapper .col:last-child {
-        padding-left: 50px;
-    }
-    /************** 02 WEB SLUT **************/
-
-
-
-
-
-    /************** 03 UX **************/
-    #ux header {
-        padding: 0 60px;
-    }
-    
-    #ux header .dot {
-        background-color: #40B8E6;
-    }
-
-    #ux header .rect {
-        background-color: #40B8E6;
-    }
-
-    #ux .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #ux .sectionwrapper {
-        padding-top: 0;
-    }
-
-    #ux .sectionwrapper .col:first-child {
-        padding-right: 50px;
-    }
-
-    #ux .sectionwrapper .col:nth-child(2) {
-        padding: 0 25px;
-    }
-
-    #ux .sectionwrapper .col:last-child {
-        padding-left: 50px;
-    }
-    /************** 03 UX SLUT **************/
-
-
-
-
-
-    /************** 04 ANIMATION **************/
-    #animation header {
-        padding: 0 60px;
-    }
-    
-    #animation header .dot {
-        background-color: #51B282;
-    }
-
-    #animation header .rect {
-        background-color: #51B282;
-    }
-
-    #animation .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #animation .sectionwrapper {
-        padding-top: 0;
-    }
-
-    #animation .sectionwrapper .col:first-child {
-        padding-right: 50px;
-    }
-
-    #animation .sectionwrapper .col:nth-child(2) {
-        padding: 0 25px;
-    }
-
-    #animation .sectionwrapper .col:last-child {
-        padding-left: 50px;
-    }
-    /************** 04 ANIMATION SLUT **************/
-
-
-
-
-
-    /************** 05 CONTENT **************/
-    #content header {
-        padding: 0 60px;
-    }
-    
-    #content header .dot {
-        background-color: #E38F53;
-    }
-
-    #content header .rect {
-        background-color: #E38F53;
-    }
-
-    #content .sectionwrapper .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
-
-    #content .sectionwrapper {
-        padding-top: 0;
-    }
-
-    #content .sectionwrapper .col:first-child {
-        padding-right: 50px;
-    }
-
-    #content .sectionwrapper .col:nth-child(2) {
-        padding: 0 25px;
-    }
-
-    #content .sectionwrapper .col:last-child {
-        padding-left: 50px;
-    }
-
-    /************** 05 CONTENT SLUT **************/
-
-
-
-
-
-
-
-
-
-
-}
-/************** MEDIA QUERY - LAPTOP SLUT **************/
-
-
-
-
 
 /************** MEDIA QUERY - DESKTOP 768px **************/
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) and (max-resolution: 120dpi) {
     
     /************** GENERELLE INDSTILLINER **************/
     .sectionwrapper {
@@ -2325,7 +952,7 @@ section {
 /************** MEDIA QUERY - DESKTOP 768px SLUT **************/
 
 /************** MEDIA QUERY - DESKTOP 992px **************/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-resolution: 120dpi) {
     
     /************** GENERELLE INDSTILLINER **************/
     .sectionwrapper {
@@ -2671,7 +1298,7 @@ section {
 /************** MEDIA QUERY - DESKTOP 992px SLUT **************/
 
 /************** MEDIA QUERY - DESKTOP 1200px **************/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-resolution: 120dpi) {
     
     /************** GENERELLE INDSTILLINER **************/
     .sectionwrapper {
@@ -2986,7 +1613,7 @@ section {
 /************** MEDIA QUERY - DESKTOP 1200px SLUT **************/
 
 /************** MEDIA QUERY - DESKTOP 1500px **************/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) and (max-resolution: 120dpi) {
     
     /************** GENERELLE INDSTILLINER **************/
     .sectionwrapper {
@@ -3295,6 +1922,1378 @@ section {
 
 
 
+
+
+/************** MEDIA QUERY - 500px **************/
+@media screen and (min-width: 500px) and (min-resolution: 120dpi) {
+    
+    /************** GENERELLE INDSTILLINER **************/
+    .sectionwrapper {
+        padding: 0 30px;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
+        font-size: 2rem;
+    }
+    
+    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
+        font-size: 1.3rem;
+    }
+    
+    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
+        font-size: 1.3rem;
+    }
+    
+    #cv p, #web p, #ux p, #animation p, #content p {
+        font-size: .85rem;
+    }
+    
+    #cv a, #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+
+    #web p, #ux p, #animation p, #content p {
+        font-size: .8rem;
+    }
+    
+    #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+    /************** GENERELLE INDSTILLINER SLUT **************/
+    
+
+
+    /************** LAPTOP MENU **************/
+    .nav_menu {
+        bottom: 3%;
+        width: 64vw;
+        margin: 0 18vw;
+        position: fixed;
+        background-color: #262938f8;
+        padding: 8px 0 15px 0;
+        box-shadow: 4px 4px 8px #00000048;
+        text-align: center;
+        border-radius: 120px;
+    }
+    /************** LAPTOP MENU SLUT **************/
+    
+
+
+    /************** LAPTOP HEADER **************/
+    header {
+        padding: 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    
+    .nav_menu .nav_links .menu_dot {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #C45450;
+    }
+
+    .nav_menu .nav_links p {
+        top: 22%;
+    }
+
+    header .rect {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #C45450;
+        position: absolute;
+        right: 30px;
+    }
+    /************** LAPTOP HEADER SLUT **************/
+
+
+    
+
+
+
+    /************** 01 CV **************/
+    #cv header {
+        padding: 0 30px;
+    }
+    
+    #cv header .dot {
+        background-color: #C45450;
+    }
+
+    #cv header .rect {
+        background-color: #C45450;
+    }
+
+    #cv .sectionwrapper {
+        overflow: hidden;
+        padding-top: 10px;
+    }
+
+    #cv .sectionwrapper .col_picture h2 {
+        font-size: 1.4rem;
+    }
+
+    #cv .sectionwrapper .col_picture img {
+        display: none;
+    }
+
+    #cv .sectionwrapper .col_picture .cv_img {
+        display: block;
+        height: 320px;
+        width: 100%;
+        border: 2px solid #707070;
+        background-position-y: 10%;
+    }
+
+    #cv .sectionwrapper .col_picture {
+        flex-grow: 1;
+        flex-basis: 250px;
+    }
+
+    #cv .sectionwrapper .col_text {
+        flex-grow: 1;
+        flex-basis: 550px;
+        padding-top: 20px;
+    }
+
+    #cv .sectionwrapper .col_text .top {
+        padding-bottom: 0;
+    }
+
+    #cv .sectionwrapper .col_text .bottom {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        justify-content: space-between;
+        padding-bottom: 130px;
+    }
+
+    #cv .sectionwrapper .col_text .bottom p {
+        font-size: 0.78rem;
+    }
+    /************** 01 CV SLUT **************/
+
+
+
+
+
+    /************** 02 WEB **************/
+    #web header {
+        padding: 0 30px;
+    }
+    
+    #web header .dot {
+        background-color: #7F6CB3;
+    }
+
+    #web header .rect {
+        background-color: #7F6CB3;
+    }
+
+    #web .sectionwrapper .col {
+        flex-basis: 200px;
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    #web .sectionwrapper {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #web .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+    #web .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 02 WEB SLUT **************/
+
+
+
+
+
+    /************** 03 UX **************/
+    #ux header {
+        padding: 0 30px;
+    }
+    
+    #ux header .dot {
+        background-color: #40B8E6;
+    }
+
+    #ux header .rect {
+        background-color: #40B8E6;
+    }
+
+    #ux .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    #ux .sectionwrapper .col:last-child {
+        padding-bottom: 130px;
+    }
+
+    #ux .sectionwrapper {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #ux .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+    #ux .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 03 UX SLUT **************/
+
+
+
+
+
+    /************** 04 ANIMATION **************/
+    #animation header {
+        padding: 0 30px;
+    }
+    
+    #animation header .dot {
+        background-color: #51B282;
+    }
+
+    #animation header .rect {
+        background-color: #51B282;
+    }
+
+    #animation .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    #animation .sectionwrapper .col:last-child {
+        padding-bottom: 130px;
+    }
+
+    #animation .sectionwrapper {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #animation .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+
+    #animation .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 04 ANIMATION SLUT **************/
+
+
+
+
+
+    /************** 05 CONTENT **************/
+    #content header {
+        padding: 0 30px;
+    }
+    
+    #content header .dot {
+        background-color: #E38F53;
+    }
+
+    #content header .rect {
+        background-color: #E38F53;
+    }
+
+    #content .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    #content .sectionwrapper .col:last-child {
+        padding-bottom: 130px;
+    }
+
+    #content .sectionwrapper {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    #content .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+    #content .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 05 CONTENT SLUT **************/
+
+
+
+
+
+
+
+
+
+
+}
+/************** MEDIA QUERY - 500px SLUT **************/
+
+/************** MEDIA QUERY - 768px **************/
+@media screen and (min-width: 768px) and (min-resolution: 120dpi) {
+    
+    /************** GENERELLE INDSTILLINER **************/
+    .sectionwrapper {
+        padding: 0 30px;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
+        font-size: 2rem;
+    }
+    
+    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
+        font-size: 1.3rem;
+    }
+    
+    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
+        font-size: 1.3rem;
+    }
+    
+    #cv p, #web p, #ux p, #animation p, #content p {
+        font-size: .85rem;
+    }
+    
+    #cv a, #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+
+    #web p, #ux p, #animation p, #content p {
+        font-size: .8rem;
+    }
+    
+    #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+    /************** GENERELLE INDSTILLINER SLUT **************/
+    
+
+
+    /************** LAPTOP MENU **************/
+    .nav_menu {
+        bottom: 3%;
+        width: 50vw;
+        margin: 0 25vw;
+        position: fixed;
+        background-color: #262938f8;
+        padding: 8px 0 15px 0;
+        box-shadow: 4px 4px 8px #00000048;
+        text-align: center;
+        border-radius: 120px;
+    }
+    /************** LAPTOP MENU SLUT **************/
+    
+
+
+    /************** LAPTOP HEADER **************/
+    header {
+        padding: 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    
+    .nav_menu .nav_links .menu_dot {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #C45450;
+    }
+
+    .nav_menu .nav_links p {
+        top: 22%;
+    }
+
+    header .rect {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #C45450;
+        position: absolute;
+        right: 30px;
+    }
+    /************** LAPTOP HEADER SLUT **************/
+
+
+    
+
+
+
+    /************** 01 CV **************/
+    #cv header {
+        padding: 0 30px;
+    }
+    
+    #cv header .dot {
+        background-color: #C45450;
+    }
+
+    #cv header .rect {
+        background-color: #C45450;
+    }
+
+    #cv .sectionwrapper {
+        overflow: hidden;
+    }
+
+    #cv .sectionwrapper .col_picture h2 {
+        font-size: 1.4rem;
+    }
+
+    #cv .sectionwrapper .col_picture img {
+        display: none;
+    }
+
+    #cv .sectionwrapper .col_picture .cv_img {
+        display: block;
+        height: 320px;
+        width: 100%;
+        border: 2px solid #707070;
+        background-position-y: 10%;
+    }
+
+    #cv .sectionwrapper .col_picture {
+        flex-grow: 1;
+        flex-basis: 250px;
+    }
+
+    #cv .sectionwrapper .col_text {
+        flex-grow: 1;
+        flex-basis: 550px;
+        padding-top: 20px;
+    }
+
+    #cv .sectionwrapper .col_text .top {
+        padding-bottom: 0;
+    }
+
+    #cv .sectionwrapper .col_text .bottom {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+        justify-content: space-between;
+        padding-bottom: 130px;
+    }
+
+    #cv .sectionwrapper .col_text .bottom p {
+        font-size: 0.78rem;
+    }
+    /************** 01 CV SLUT **************/
+
+
+
+
+
+    /************** 02 WEB **************/
+    #web header {
+        padding: 0 30px;
+    }
+    
+    #web header .dot {
+        background-color: #7F6CB3;
+    }
+
+    #web header .rect {
+        background-color: #7F6CB3;
+    }
+
+    #web .sectionwrapper .col {
+        flex-basis: 200px;
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    #web .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #web .sectionwrapper .col:first-child {
+        padding-right: 30px;
+    }
+
+    #web .sectionwrapper .col:last-child {
+        padding-left: 30px;
+    }
+
+    #web .sectionwrapper .col:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    #web .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+    #web .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+
+
+    /************** 02 WEB SLUT **************/
+
+
+
+
+
+    /************** 03 UX **************/
+    #ux header {
+        padding: 0 30px;
+    }
+    
+    #ux header .dot {
+        background-color: #40B8E6;
+    }
+
+    #ux header .rect {
+        background-color: #40B8E6;
+    }
+
+    #ux .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+        padding-bottom: 130px;
+    }
+
+    #ux .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #ux .sectionwrapper .col:first-child {
+        padding-right: 30px;
+    }
+
+    #ux .sectionwrapper .col:last-child {
+        padding-left: 30px;
+    }
+
+    #ux .sectionwrapper .col:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    #ux .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+    #ux .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 03 UX SLUT **************/
+
+
+
+
+
+    /************** 04 ANIMATION **************/
+    #animation header {
+        padding: 0 30px;
+    }
+    
+    #animation header .dot {
+        background-color: #51B282;
+    }
+
+    #animation header .rect {
+        background-color: #51B282;
+    }
+
+    #animation .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+        padding-bottom: 130px;
+    }
+
+    #animation .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #animation .sectionwrapper .col:first-child {
+        padding-right: 30px;
+    }
+
+    #animation .sectionwrapper .col:last-child {
+        padding-left: 30px;
+    }
+
+    #animation .sectionwrapper .col:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    #ux .sectionwrapper .col p a {
+        transition: .5s;
+    }
+
+
+    #animation .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 04 ANIMATION SLUT **************/
+
+
+
+
+
+    /************** 05 CONTENT **************/
+    #content header {
+        padding: 0 30px;
+    }
+    
+    #content header .dot {
+        background-color: #E38F53;
+    }
+
+    #content header .rect {
+        background-color: #E38F53;
+    }
+
+    #content .sectionwrapper .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0;
+        padding-bottom: 130px;
+    }
+
+    #content .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #content .sectionwrapper .col:first-child {
+        padding-right: 30px;
+    }
+
+    #content .sectionwrapper .col:last-child {
+        padding-left: 30px;
+    }
+
+    #content .sectionwrapper .col:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    #content .sectionwrapper .col p a:hover {
+        color: #707070;
+    }
+    /************** 05 CONTENT SLUT **************/
+
+
+
+
+
+
+
+
+
+
+}
+/************** MEDIA QUERY - 768px SLUT **************/
+
+/************** MEDIA QUERY - 992px **************/
+@media screen and (min-width: 992px) and (min-resolution: 120dpi) {
+    
+    /************** GENERELLE INDSTILLINER **************/
+    .sectionwrapper {
+        padding: 0 30px;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
+        font-size: 2rem;
+    }
+    
+    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
+        font-size: 1.3rem;
+    }
+    
+    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
+        font-size: 1.3rem;
+    }
+    
+    #cv p, #web p, #ux p, #animation p, #content p {
+        font-size: 13px;
+    }
+    
+    #cv a, #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+
+    #web p, #ux p, #animation p, #content p {
+        font-size: 0.75rem;
+    }
+    
+    #web a, #ux a, #animation a, #content a {
+        font-size: 0.75rem;
+    }
+    /************** GENERELLE INDSTILLINER SLUT **************/
+    
+
+
+    /************** LAPTOP MENU **************/
+    .nav_menu {
+        bottom: 3%;
+        width: 40vw;
+        margin: 0 30vw;
+        position: fixed;
+        background-color: #262938f8;
+        padding: 8px 0 15px 0;
+        box-shadow: 4px 4px 8px #00000048;
+        text-align: center;
+        border-radius: 120px;
+    }
+    /************** LAPTOP MENU SLUT **************/
+    
+
+
+    /************** LAPTOP HEADER **************/
+    header {
+        padding: 0 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    
+    .nav_menu .nav_links .menu_dot {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #C45450;
+    }
+
+    .nav_menu .nav_links p {
+        top: 22%;
+    }
+
+    header .rect {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #C45450;
+        position: absolute;
+        right: 30px;
+    }
+    /************** LAPTOP HEADER SLUT **************/
+
+
+    
+
+
+
+    /************** 01 CV **************/
+    #cv header {
+        padding: 0 30px;
+    }
+    
+    #cv header .dot {
+        background-color: #C45450;
+    }
+
+    #cv header .rect {
+        background-color: #C45450;
+    }
+
+    #cv .sectionwrapper {
+        overflow: hidden;
+        flex-direction: row;
+    }
+
+    #cv .sectionwrapper .col_picture h2 {
+        font-size: 1.4rem;
+    }
+
+    #cv .sectionwrapper .col_picture img {
+        display: none;
+    }
+
+    #cv .sectionwrapper .col_picture .cv_img {
+        display: block;
+        height: 85%;
+        width: 100%;
+        border: 2px solid #707070;
+    }
+
+    #cv .sectionwrapper .col_picture {
+        flex-grow: 1;
+        flex-basis: 250px;
+        padding-right: 15px;
+    }
+
+    #cv .sectionwrapper .col_text {
+        flex-grow: 1;
+        flex-basis: 550px;
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    #cv .sectionwrapper .col_text .top {
+        padding-bottom: 0;
+    }
+
+    #cv .sectionwrapper .col_text .bottom {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+        justify-content: space-between;
+    }
+
+    #cv .sectionwrapper .col_text .bottom p {
+        font-size: 0.78rem;
+    }
+    /************** 01 CV SLUT **************/
+
+
+
+
+
+    /************** 02 WEB **************/
+    #web header {
+        padding: 0 30px;
+    }
+    
+    #web header .dot {
+        background-color: #7F6CB3;
+    }
+
+    #web header .rect {
+        background-color: #7F6CB3;
+    }
+
+    #web .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #web .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #web .sectionwrapper .col br {
+        display: block;
+    }
+
+    #web .sectionwrapper .col:first-child {
+        padding-right: 20px;
+    }
+
+    #web .sectionwrapper .col:nth-child(2) {
+        padding: 0 10px;
+    }
+
+    #web .sectionwrapper .col:last-child {
+        padding-left: 20px;
+    }
+    /************** 02 WEB SLUT **************/
+
+
+
+
+
+    /************** 03 UX **************/
+    #ux header {
+        padding: 0 30px;
+    }
+    
+    #ux header .dot {
+        background-color: #40B8E6;
+    }
+
+    #ux header .rect {
+        background-color: #40B8E6;
+    }
+
+    #ux .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #ux .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #ux .sectionwrapper .col br {
+        display: block;
+    }
+
+    #ux .sectionwrapper .col:first-child {
+        padding-right: 20px;
+    }
+
+    #ux .sectionwrapper .col:nth-child(2) {
+        padding: 0 10px;
+    }
+
+    #ux .sectionwrapper .col:last-child {
+        padding-left: 20px;
+    }
+    /************** 03 UX SLUT **************/
+
+
+
+
+
+    /************** 04 ANIMATION **************/
+    #animation header {
+        padding: 0 30px;
+    }
+    
+    #animation header .dot {
+        background-color: #51B282;
+    }
+
+    #animation header .rect {
+        background-color: #51B282;
+    }
+
+    #animation .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #animation .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #animation .sectionwrapper .col br {
+        display: block;
+    }
+
+    #animation .sectionwrapper .col:first-child {
+        padding-right: 20px;
+    }
+
+    #animation .sectionwrapper .col:nth-child(2) {
+        padding: 0 10px;
+    }
+
+    #animation .sectionwrapper .col:last-child {
+        padding-left: 20px;
+    }
+    /************** 04 ANIMATION SLUT **************/
+
+
+
+
+
+    /************** 05 CONTENT **************/
+    #content header {
+        padding: 0 30px;
+    }
+    
+    #content header .dot {
+        background-color: #E38F53;
+    }
+
+    #content header .rect {
+        background-color: #E38F53;
+    }
+
+    #content .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #content .sectionwrapper {
+        padding-top: 0;
+        flex-direction: row;
+    }
+
+    #content .sectionwrapper .col br {
+        display: inherit;
+    }
+
+    #content .sectionwrapper .col br:last-child {
+        display: inline;
+    }
+
+    #content .sectionwrapper .col:first-child {
+        padding-right: 20px;
+    }
+
+    #content .sectionwrapper .col:nth-child(2) {
+        padding: 0 10px;
+    }
+
+    #content .sectionwrapper .col:last-child {
+        padding-left: 20px;
+    }
+    /************** 05 CONTENT SLUT **************/
+
+
+
+
+
+
+
+
+
+
+}
+/************** MEDIA QUERY - 992px SLUT **************/
+
+/************** MEDIA QUERY - LAPTOP **************/
+@media screen and (min-width: 1200px) and (min-resolution: 120dpi) {
+    
+    /************** GENERELLE INDSTILLINER **************/
+    .sectionwrapper {
+        padding: 0 60px;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    #cv h1, #web h1, #ux h1, #animation h1, #content h1 {
+        font-size: 2rem;
+    }
+    
+    #cv h2, #web h2, #ux h2, #animation h2, #content h2 {
+        font-size: 1.4rem;
+    }
+    
+    #cv h3, #web h3, #ux h3, #animation h3, #content h3 {
+        font-size: 1.3rem;
+    }
+    
+    #cv p, #web p, #ux p, #animation p, #content p {
+        font-size: 13px;
+    }
+    
+    #cv a, #web a, #ux a, #animation a, #content a {
+        font-size: 0.8rem;
+    }
+    /************** GENERELLE INDSTILLINER SLUT **************/
+    
+
+
+    /************** LAPTOP MENU **************/
+    .nav_menu {
+        bottom: 3%;
+        width: 40vw;
+        margin: 0 30vw;
+        position: fixed;
+        background-color: #262938f8;
+        padding: 8px 0 15px 0;
+        box-shadow: 4px 4px 8px #00000048;
+        text-align: center;
+        border-radius: 120px;
+    }
+    /************** LAPTOP MENU SLUT **************/
+    
+
+
+    /************** LAPTOP HEADER **************/
+    header {
+        padding: 0 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    
+    .nav_menu .nav_links .menu_dot {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #C45450;
+    }
+
+    .nav_menu .nav_links p {
+        top: 22%;
+    }
+
+    header .rect {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #C45450;
+        position: absolute;
+        right: 60px;
+    }
+    /************** LAPTOP HEADER SLUT **************/
+
+
+    
+
+
+
+    /************** 01 CV **************/
+    #cv header {
+        padding: 0 60px;
+    }
+    
+    #cv header .dot {
+        background-color: #C45450;
+    }
+
+    #cv header .rect {
+        background-color: #C45450;
+    }
+
+    #cv .sectionwrapper {
+        overflow: hidden;
+    }
+
+    #cv .sectionwrapper .col_picture {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding-right: 15px;
+    }
+
+    #cv .sectionwrapper .col_text {
+        flex-grow: 1;
+        flex-basis: 600px;
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    #cv .sectionwrapper .col_text .top {
+        padding-bottom: 0;
+    }
+
+    #cv .sectionwrapper .col_text .bottom {
+        flex-grow: 1;
+        flex-basis: 250px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+        justify-content: space-between;
+    }
+
+    #cv .sectionwrapper .col_text .bottom p {
+        font-size: 0.8rem;
+    }
+    /************** 01 CV SLUT **************/
+
+
+
+
+
+    /************** 02 WEB **************/
+    #web header {
+        padding: 0 60px;
+    }
+    
+    #web header .dot {
+        background-color: #7F6CB3;
+    }
+
+    #web header .rect {
+        background-color: #7F6CB3;
+    }
+
+    #web .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #web .sectionwrapper {
+        padding-top: 0;
+    }
+
+    #web .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #web .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #web .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 02 WEB SLUT **************/
+
+
+
+
+
+    /************** 03 UX **************/
+    #ux header {
+        padding: 0 60px;
+    }
+    
+    #ux header .dot {
+        background-color: #40B8E6;
+    }
+
+    #ux header .rect {
+        background-color: #40B8E6;
+    }
+
+    #ux .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #ux .sectionwrapper {
+        padding-top: 0;
+    }
+
+    #ux .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #ux .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #ux .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 03 UX SLUT **************/
+
+
+
+
+
+    /************** 04 ANIMATION **************/
+    #animation header {
+        padding: 0 60px;
+    }
+    
+    #animation header .dot {
+        background-color: #51B282;
+    }
+
+    #animation header .rect {
+        background-color: #51B282;
+    }
+
+    #animation .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #animation .sectionwrapper {
+        padding-top: 0;
+    }
+
+    #animation .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #animation .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #animation .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+    /************** 04 ANIMATION SLUT **************/
+
+
+
+
+
+    /************** 05 CONTENT **************/
+    #content header {
+        padding: 0 60px;
+    }
+    
+    #content header .dot {
+        background-color: #E38F53;
+    }
+
+    #content header .rect {
+        background-color: #E38F53;
+    }
+
+    #content .sectionwrapper .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    #content .sectionwrapper {
+        padding-top: 0;
+    }
+
+    #content .sectionwrapper .col:first-child {
+        padding-right: 50px;
+    }
+
+    #content .sectionwrapper .col:nth-child(2) {
+        padding: 0 25px;
+    }
+
+    #content .sectionwrapper .col:last-child {
+        padding-left: 50px;
+    }
+
+    /************** 05 CONTENT SLUT **************/
+
+
+
+
+
+
+
+
+
+
+}
+/************** MEDIA QUERY - LAPTOP SLUT **************/
+
+
+
+
 /************** LANDING PAGE **************/
 #landing_page {
     height: 100vh;
@@ -3465,7 +3464,7 @@ section {
 
     100% {
         display: initial;
-        transform: translateY(1) scaleY(1) scaleX(1);
+        transform: translateY(0px) scaleY(1) scaleX(1);
         transform-origin: 50% 50%;
         filter: blur(0);
         opacity: 1;
